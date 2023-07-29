@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      * {
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+      }
+
+      section article main {
+        display: flex;
+        /* gap: 100px; */
+        /* flex-direction: column; */
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      #home article main .child {
+        background-color: red;
+        height: 100px;
+        width: 100px;
+        border-radius: 50%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+
+      .child3 {
+        font-size: 50px;
+      }
+    </style>
+  </head>
+  <body>
+    <section id="home">
+      <article>
+        <main>
+          <div class="child child1">child</div>
+          <div class="child child2">child</div>
+          <div class="child child3">child</div>
+          <div class="child child4">child</div>
+          <div class="child child5">child</div>
+          <div class="child child6">child</div>
+          <div class="child child7">child</div>
+        </main>
+      </article>
+    </section>
+
+    <section>
+      <article>
+        <main></main>
+      </article>
+    </section>
+  </body>
+</html>
